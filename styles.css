@@ -1,14 +1,12 @@
-.playwrite {
-    font-family: "Playwrite US Modern Guides", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
 
-.fleur {
-    font-family: "Fleur De Leah", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
+.playwrite {
+  font-family: "Playwrite IT Trad", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
 
 .cherry {
     font-family: "Cherry Bomb One", serif;
@@ -32,20 +30,31 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 }
 h1 {background-color: #FF9B71;
-border-color: #8CD867;}
-
+border-style: solid;}
+.left {text-align: left;}
 
 img {border-radius: 50%;
-box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);}
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);}
 
 .tower { display: flex; justify-content: space-evenly;
 }
 .top {background-color: #FF9B71; border-style: solid;}
-h2 {background-color: #8CD867;}
+h2 {background-color: #8CD867;
+border-style: solid;}
 footer {background-color: #8CD867;}
 .centered{
     text-align: center;
 }
+.backing {background-color: #a9f881;
+border-style: solid; border-color:#8CD867;}
+
+section :hover {
+  background-color: #FF9B71 ;
+  font-size: 18px;
+}
+
+
+
 .info {max-width: 500;
 text-align: left;
 color: darkslategray;
